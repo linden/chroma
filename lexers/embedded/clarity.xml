@@ -28,18 +28,6 @@
       <rule pattern="&#34;(\\.|\\\n|[^&#34;\\])*&#34;">
         <token type="LiteralString"/>
       </rule>
-      <rule pattern=":(\|[^|]+\||(?:\\.|[\w!$%&amp;*+-/&lt;=&gt;?@\[\]^{}~])(?:\\.|[\w!$%&amp;*+-/&lt;=&gt;?@\[\]^{}~]|[#.:])*)">
-        <token type="LiteralStringSymbol"/>
-      </rule>
-      <rule pattern="::(\|[^|]+\||(?:\\.|[\w!$%&amp;*+-/&lt;=&gt;?@\[\]^{}~])(?:\\.|[\w!$%&amp;*+-/&lt;=&gt;?@\[\]^{}~]|[#.:])*)">
-        <token type="LiteralStringSymbol"/>
-      </rule>
-      <rule pattern=":#(\|[^|]+\||(?:\\.|[\w!$%&amp;*+-/&lt;=&gt;?@\[\]^{}~])(?:\\.|[\w!$%&amp;*+-/&lt;=&gt;?@\[\]^{}~]|[#.:])*)">
-        <token type="LiteralStringSymbol"/>
-      </rule>
-      <rule pattern="&#39;(\|[^|]+\||(?:\\.|[\w!$%&amp;*+-/&lt;=&gt;?@\[\]^{}~])(?:\\.|[\w!$%&amp;*+-/&lt;=&gt;?@\[\]^{}~]|[#.:])*)">
-        <token type="LiteralStringSymbol"/>
-      </rule>
       <rule pattern="&#39;">
         <token type="Operator"/>
       </rule>
@@ -58,7 +46,7 @@
       <rule pattern="#\\.(?=[ &#34;()\&#39;\n,;`])">
         <token type="LiteralStringChar"/>
       </rule>
-      <rule pattern="#\\(\|[^|]+\||(?:\\.|[\w!$%&amp;*+-/&lt;=&gt;?@\[\]^{}~])(?:\\.|[\w!$%&amp;*+-/&lt;=&gt;?@\[\]^{}~]|[#.:])*)">
+      <rule pattern="#\\(\|[^|]+\||(?:\\.|[\w!$%&amp;*+-/&lt;=&gt;?@\[\]^{}~])(?:\\.|[\w!$%&amp;*+/&lt;=&gt;?@\[\]^{}~]|[#.:])*)">
         <token type="LiteralStringChar"/>
       </rule>
       <rule pattern="#\(">
@@ -122,9 +110,6 @@
       <rule pattern="#+nil(?=[ &#34;()\&#39;\n,;`])\s*\(">
         <token type="CommentPreproc"/>
         <push state="commented-form"/>
-      </rule>
-      <rule pattern="#[+-]">
-        <token type="Operator"/>
       </rule>
       <rule pattern="(,@|,|\.)">
         <token type="Operator"/>
