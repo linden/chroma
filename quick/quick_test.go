@@ -3,11 +3,12 @@ package quick_test
 import (
 	"log"
 	"os"
+	"testing"
 
 	"github.com/alecthomas/chroma/v2/quick"
 )
 
-func Example() {
+func TestHighlight(t *testing.T) {
 	code := `package main
 
 func main() { }
