@@ -3,7 +3,7 @@ package formatters
 import (
 	"testing"
 
-	"github.com/alecthomas/chroma/v2"
+	"github.com/linden/chroma/v2"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/alecthomas/chroma/v2"
-	"github.com/alecthomas/chroma/v2/lexers"
+	"github.com/linden/chroma/v2"
+	"github.com/linden/chroma/v2/lexers"
 )
 
 const lexerBenchSource = `/*

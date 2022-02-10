@@ -21,11 +21,11 @@ import (
 	colorable "github.com/mattn/go-colorable"
 	isatty "github.com/mattn/go-isatty"
 
-	"github.com/alecthomas/chroma/v2"
-	"github.com/alecthomas/chroma/v2/formatters"
-	"github.com/alecthomas/chroma/v2/formatters/html"
-	"github.com/alecthomas/chroma/v2/lexers"
-	"github.com/alecthomas/chroma/v2/styles"
+	"github.com/linden/chroma/v2"
+	"github.com/linden/chroma/v2/formatters"
+	"github.com/linden/chroma/v2/formatters/html"
+	"github.com/linden/chroma/v2/lexers"
+	"github.com/linden/chroma/v2/styles"
 )
 
 var (
