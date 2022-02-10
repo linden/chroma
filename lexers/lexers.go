@@ -4,7 +4,7 @@ import (
 	"embed"
 	"io/fs"
 
-	"github.com/linden/chroma/v2"
+	"github.com/linden/chroma"
 )
 
 //go:embed embedded

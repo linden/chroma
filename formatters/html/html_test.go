@@ -9,9 +9,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/linden/chroma/v2"
-	"github.com/linden/chroma/v2/lexers"
-	"github.com/linden/chroma/v2/styles"
+	"github.com/linden/chroma"
+	"github.com/linden/chroma/lexers"
+	"github.com/linden/chroma/styles"
 )
 
 func TestCompressStyle(t *testing.T) {

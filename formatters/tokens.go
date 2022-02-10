@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/linden/chroma/v2"
+	"github.com/linden/chroma"
 )
 
 // Tokens formatter outputs the raw token structures.

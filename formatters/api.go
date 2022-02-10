@@ -4,9 +4,9 @@ import (
 	"io"
 	"sort"
 
-	"github.com/linden/chroma/v2"
-	"github.com/linden/chroma/v2/formatters/html"
-	"github.com/linden/chroma/v2/formatters/svg"
+	"github.com/linden/chroma"
+	"github.com/linden/chroma/formatters/html"
+	"github.com/linden/chroma/formatters/svg"
 )
 
 var (

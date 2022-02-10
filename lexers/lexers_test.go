@@ -13,10 +13,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/linden/chroma/v2"
-	"github.com/linden/chroma/v2/formatters"
-	"github.com/linden/chroma/v2/lexers"
-	"github.com/linden/chroma/v2/styles"
+	"github.com/linden/chroma"
+	"github.com/linden/chroma/formatters"
+	"github.com/linden/chroma/lexers"
+	"github.com/linden/chroma/styles"
 )
 
 func TestCompileAllRegexes(t *testing.T) {

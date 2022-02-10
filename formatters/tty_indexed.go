@@ -5,7 +5,7 @@ import (
 	"io"
 	"math"
 
-	"github.com/linden/chroma/v2"
+	"github.com/linden/chroma"
 )
 
 type ttyTable struct {

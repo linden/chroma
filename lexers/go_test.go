@@ -3,7 +3,7 @@ package lexers
 import (
 	"testing"
 
-	"github.com/linden/chroma/v2"
+	"github.com/linden/chroma"
 	"github.com/stretchr/testify/assert"
 )
 

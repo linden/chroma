@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/linden/chroma/v2/quick"
+	"github.com/linden/chroma/quick"
 )
 
 func TestHighlight(t *testing.T) {

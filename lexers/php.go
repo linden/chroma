@@ -3,7 +3,7 @@ package lexers
 import (
 	"strings"
 
-	. "github.com/linden/chroma/v2" // nolint
+	. "github.com/linden/chroma" // nolint
 )
 
 // phtml lexer is PHP in HTML.

@@ -1,4 +1,4 @@
-module github.com/linden/chroma/v2
+module github.com/linden/chroma
 
 go 1.17
 

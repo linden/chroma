@@ -3,7 +3,7 @@ package styles
 import (
 	"sort"
 
-	"github.com/linden/chroma/v2"
+	"github.com/linden/chroma"
 )
 
 // Registry of Styles.

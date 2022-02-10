@@ -15,10 +15,10 @@ import (
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
 
-	"github.com/linden/chroma/v2"
-	"github.com/linden/chroma/v2/formatters/html"
-	"github.com/linden/chroma/v2/lexers"
-	"github.com/linden/chroma/v2/styles"
+	"github.com/linden/chroma"
+	"github.com/linden/chroma/formatters/html"
+	"github.com/linden/chroma/lexers"
+	"github.com/linden/chroma/styles"
 )
 
 var (

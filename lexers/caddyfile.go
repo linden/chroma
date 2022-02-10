@@ -1,7 +1,7 @@
 package lexers
 
 import (
-	. "github.com/linden/chroma/v2" // nolint
+	. "github.com/linden/chroma" // nolint
 )
 
 // caddyfileCommon are the rules common to both of the lexer variants

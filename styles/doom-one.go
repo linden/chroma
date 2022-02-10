@@ -1,7 +1,7 @@
 package styles
 
 import (
-	"github.com/linden/chroma/v2"
+	"github.com/linden/chroma"
 )
 
 // Doom One style. Inspired by Atom One and Doom Emacs's Atom One theme

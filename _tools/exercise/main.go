@@ -5,9 +5,9 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/linden/chroma/v2/formatters"
-	"github.com/linden/chroma/v2/lexers"
-	"github.com/linden/chroma/v2/styles"
+	"github.com/linden/chroma/formatters"
+	"github.com/linden/chroma/lexers"
+	"github.com/linden/chroma/styles"
 	"gopkg.in/alecthomas/kingpin.v3-unstable"
 )
 
